@@ -9,7 +9,13 @@ const index = (props: Props) => {
     const flexBetween = "flex items-center justify-between";
 
     return (
-        <div>Navbar</div>
+        <nav>
+            <div
+                className={`${flexBetween} fixed top-0 z-30 w-full`}
+            >
+
+            </div>
+        </nav>
     )
 }
 
