@@ -11,8 +11,12 @@ const index = (props: Props) => {
     return (
         <nav>
             <div
-                className={`${flexBetween} fixed top-0 z-30 w-full`}
+                className={`${flexBetween} fixed top-0 z-30 w-full py-6`}
             >
+
+                <div>
+
+                </div>
 
             </div>
         </nav>
