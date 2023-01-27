@@ -23,18 +23,16 @@ const index = (props: Props) => {
                                 <p>Benefits</p>
                                 <p>Our Classes</p>
                                 <p>Contact Us</p>
-                                <div>
-                                    <p>Sign In</p>
-                                    <button>Become a memeber</button>
-                                </div>
-
+                            </div>
+                            <div className={`${flexBetween} gap-8`}>
+                                <p>Sign In</p>
+                                <button>Become a memeber</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
-        </nav>
+            </div>></div>
+        </nav >
     )
 }
 
